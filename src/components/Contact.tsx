@@ -30,7 +30,7 @@ export default function Contact() {
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">Call Support</p>
                                     <a
-                                        href="https://wa.me/+2349019573482"
+                                        href="https://wa.me/+2349017420802"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-white hover:opacity-70 transition-opacity"
