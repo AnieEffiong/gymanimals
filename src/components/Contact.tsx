@@ -19,7 +19,12 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">Email Us</p>
-                                    <p className="text-white">hello@gymanimals.com</p>
+                                    <a
+                                        href="mailto:Pdox202@gmail.com"
+                                        className="text-white hover:opacity-70 transition-opacity"
+                                    >
+                                        hello@gymanimals.com
+                                    </a>
                                 </div>
                             </div>
 
@@ -30,7 +35,7 @@ export default function Contact() {
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">Call Support</p>
                                     <a
-                                        href="https://wa.me/+2349017420802"
+                                        href="https://wa.me/+2349019573482"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-white hover:opacity-70 transition-opacity"
@@ -46,7 +51,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">HQ Location</p>
-                                    <p className="text-white">742 Performance Way, LA</p>
+                                    <p className="text-white">Lagos, Nigeria</p>
                                 </div>
                             </div>
                         </div>
