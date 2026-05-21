@@ -51,7 +51,14 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">HQ Location</p>
-                                    <p className="text-white">Lagos, Nigeria</p>
+                                    <a
+                                        href="https://maps.google.com/?q=Lagos,Nigeria"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white hover:opacity-70 transition-opacity"
+                                    >
+                                        Lagos, Nigeria
+                                    </a>
                                 </div>
                             </div>
                         </div>
