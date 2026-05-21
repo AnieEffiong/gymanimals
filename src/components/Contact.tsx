@@ -29,7 +29,14 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-zinc-500 uppercase tracking-widest">Call Support</p>
-                                    <p className="text-white">+1 (888) GYM-ANML</p>
+                                    <a
+                                        href="https://wa.me/+2349019573482"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white hover:opacity-70 transition-opacity"
+                                    >
+                                        +1 (888) GYM-ANML
+                                    </a>
                                 </div>
                             </div>
 
@@ -47,7 +54,7 @@ export default function Contact() {
                         <div className="mt-16 pt-8 border-t border-zinc-800">
                             <p className="text-xs text-zinc-500 uppercase tracking-[0.3em] mb-4">Follow the Tribe</p>
                             <div className="flex gap-4">
-                                <a href="https://www.instagram.com/gymanimals" target="_blank" rel="noopener noreferrer" id="social-instagram-link-j9x2k4m1" className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors flex items-center justify-center">
+                                <a href="https://www.instagram.com/gymm.animals?igsh=ZGVnMzlnaG5qMTA0&utm_source=qr" target="_blank" rel="noopener noreferrer" id="social-instagram-link-j9x2k4m1" className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors flex items-center justify-center">
                                     <Instagram className="w-4 h-4 text-white" />
                                 </a>
                                 <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div>
