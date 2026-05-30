@@ -86,7 +86,7 @@ export default function Contact() {
 
                     {/* Form Side */}
                     <div id="contact-form-panel-x3m9k1l5" className="lg:w-3/5 p-12">
-                        <SiteJourneyForm formType="contact" successMessage="We've received your roar. We'll be in touch soon.">
+                        <SiteJourneyForm>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                                 <div className="space-y-2">
                                     <label className="text-xs uppercase tracking-widest text-zinc-500 font-medium ml-1">Full Name</label>
