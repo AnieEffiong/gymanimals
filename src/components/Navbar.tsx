@@ -14,6 +14,18 @@ export default function Navbar() {
         return () => window.removeEventListener('scroll', onScroll);
     }, []);
 
+    useEffect(() => {
+        if (mobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [mobileMenuOpen]);
+
     const scrollTo = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
@@ -73,10 +85,11 @@ export default function Navbar() {
                     <button
                         id="nav-cta-btn-q9x2m4p1"
                         onClick={() => scrollTo('collection-section-n7r2m1p4')}
-                        className={`px-8 py-2 rounded-full font-sans text-sm tracking-widest uppercase transition-all shadow-md ${scrolled
+                        className={`px-8 py-2 rounded-full font-sans text-sm tracking-widest uppercase transition-all shadow-md ${
+                            scrolled
                                 ? 'bg-white text-black hover:bg-zinc-200'
                                 : 'bg-white text-black hover:bg-zinc-100'
-                            }`}
+                        }`}
                     >
                         SHOP NOW
                     </button>
@@ -85,7 +98,7 @@ export default function Navbar() {
                 {/* Mobile Toggle */}
                 <button
                     id="mobile-menu-toggle-v7k2m4l1"
-                    className={`lg:hidden https://images.unsplash.com/photo-1597306957805-4cca0752eb31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODY5NjV8MHwxfHNlYXJjaHwxfHx0ZXh0JTIwY29sb3J8ZW58MHwwfHx8MTc3ODk2NzgwMHww&ixlib=rb-4.1.0&q=80&w=1080 drop-shadow-sm`}
+                    className={`lg:hidden z-10 https://images.unsplash.com/photo-1597306957805-4cca0752eb31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4ODY5NjV8MHwxfHNlYXJjaHwxfHx0ZXh0JTIwY29sb3J8ZW58MHwwfHx8MTc3ODk2NzgwMHww&ixlib=rb-4.1.0&q=80&w=1080 drop-shadow-sm`}
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                     {mobileMenuOpen ? <X className={textColor} /> : <Menu className={textColor} />}
@@ -96,10 +109,11 @@ export default function Navbar() {
             {mobileMenuOpen && (
                 <div
                     id="mobile-menu-overlay-x3m1p9v2"
-                    className="fixed inset-0 bg-black/95 backdrop-blur-md z-60 flex flex-col items-center justify-center gap-8 lg:hidden"                >
+                    className="fixed top-0 left-0 w-screen h-screen overflow-hidden bg-black/95 backdrop-blur-md z-9999 flex flex-col items-center justify-center gap-8 lg:hidden"
+                >
                     <button
                         onClick={() => setMobileMenuOpen(false)}
-                        className="absolute top-8 right-8 text-white"
+                        className="absolute top-8 right-8 text-white z-10000"
                     >
                         <X size={32} />
                     </button>
