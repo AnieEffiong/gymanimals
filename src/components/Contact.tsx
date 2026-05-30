@@ -79,7 +79,6 @@ export default function Contact() {
                                 >
                                     <FaWhatsapp className="w-4 h-4 text-white" />
                                 </a>
-                                {/* <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div> */}
                                 <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div>
                             </div>
                         </div>
