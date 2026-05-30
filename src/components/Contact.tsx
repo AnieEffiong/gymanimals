@@ -1,5 +1,6 @@
 import SiteJourneyForm from './SiteJourneyForm';
 import { Mail, MapPin, Phone, Instagram } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
     return (
@@ -68,6 +69,15 @@ export default function Contact() {
                             <div className="flex gap-4">
                                 <a href="https://www.instagram.com/gym.animalss/" target="_blank" rel="noopener noreferrer" id="social-instagram-link-j9x2k4m1" className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors flex items-center justify-center">
                                     <Instagram className="w-4 h-4 text-white" />
+                                </a>
+                                <a
+                                    href="https://chat.whatsapp.com/HYyFgOsM5mC1qkyq4S77Bh?mode=gi_t"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    id="social-whatsapp-group-link-j9x2k4m1"
+                                    className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors flex items-center justify-center"
+                                >
+                                    <FaWhatsapp className="w-4 h-4 text-white" />
                                 </a>
                                 {/* <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div> */}
                                 <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div>
