@@ -24,7 +24,7 @@ export default function Contact() {
                                         href="mailto:pdox202@gmail.com"
                                         className="text-white hover:opacity-70 transition-opacity"
                                     >
-                                        pdox202@gmail.com.com
+                                        pdox202@gmail.com
                                     </a>
                                 </div>
                             </div>
