@@ -35,7 +35,7 @@ export default function Hero() {
                         id="hero-subheadline-v3m9k1p4"
                         className="mt-8 text-zinc-300 text-lg md:text-xl max-w-2xl mx-auto font-sans tracking-wide leading-relaxed"
                     >
-                        Empowering the African Fitness Community through high-performance merchandise, engaging challenges, and impactful initiatives. Unleash your inner beast and join the movement.
+                        Empowering the Fitness Community through high-performance merchandise, engaging challenges, and impactful initiatives. Unleash your inner beast and join the movement.
                     </p>
 
                     <div id="hero-cta-group-x8m2p4v1" className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
