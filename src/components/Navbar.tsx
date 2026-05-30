@@ -97,14 +97,21 @@ export default function Navbar() {
             {mobileMenuOpen && (
                 <div
                     id="mobile-menu-overlay-x3m1p9v2"
-                    className="fixed inset-0 bg-white z-40 flex flex-col items-center justify-center gap-8 lg:hidden"
+                    className="fixed inset-0 bg-black/95 backdrop-blur-md z-40 flex flex-col items-center justify-center gap-8 lg:hidden"
                 >
+                    <button
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="absolute top-8 right-8 text-white"
+                    >
+                        <X size={32} />
+                    </button>
+
                     {navLinks.map((link) => (
                         <button
                             key={link.id}
                             id={`mobile-nav-link-${link.label.toLowerCase()}-m3p1v9x2`}
                             onClick={() => scrollTo(link.id)}
-                            className="font-display uppercase text-3xl font-thin text-zinc-900 drop-shadow-sm"
+                            className="font-display uppercase text-3xl font-thin text-white drop-shadow-sm"
                         >
                             {link.label}
                         </button>
@@ -113,7 +120,7 @@ export default function Navbar() {
                     <button
                         id="mobile-nav-cta-z7v2l1p9"
                         onClick={() => scrollTo('collection-section-n7r2m1p4')}
-                        className="mt-4 px-12 py-4 bg-indigo-600 rounded-full font-sans tracking-widest uppercase text-white"
+                        className="mt-4 px-12 py-4 bg-white text-black rounded-full font-sans tracking-widest uppercase"
                     >
                         SHOP NOW
                     </button>
