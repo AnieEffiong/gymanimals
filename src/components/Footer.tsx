@@ -56,14 +56,6 @@ export default function Footer() {
                     <p className="text-xs uppercase tracking-widest text-white">
                         &copy; {new Date().getFullYear()} GYM ANIMALS. All Rights Reserved.
                     </p>
-                    <a
-                        href="https://sitejourney.ai"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-4 py-1 bg-indigo-900/30 text-white text-[10px] uppercase tracking-widest rounded-full hover:bg-indigo-900/50 transition-colors"
-                    >
-                        Made with SiteJourney.ai
-                    </a>
                 </div>
             </div>
         </footer>
