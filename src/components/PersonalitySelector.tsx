@@ -712,7 +712,7 @@ export default function PersonalitySelector() {
                                         }
                                         className="px-12 py-4 rounded-full bg-indigo-600 hover:bg-indigo-700 transition-all uppercase tracking-[0.3em] text-white shadow-xl shadow-indigo-500/20"
                                     >
-                                        {`Shop Like a ${result.name}`}
+                                        {`See What's Coming, ${result.name}`}
                                     </motion.button>
 
                                 </div>

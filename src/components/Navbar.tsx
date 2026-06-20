@@ -134,7 +134,7 @@ export default function Navbar() {
                         onClick={() => scrollTo('collection-section-n7r2m1p4')}
                         className="mt-4 px-12 py-4 bg-white text-black rounded-full font-sans tracking-widest uppercase"
                     >
-                        SHOP NOW
+                        Coming Soon!
                     </button>
                 </div>
             )}
