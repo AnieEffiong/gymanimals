@@ -91,7 +91,7 @@ export default function Navbar() {
                                 : 'bg-white text-black hover:bg-zinc-100'
                         }`}
                     >
-                        SHOP NOW
+                        Coming Soon!
                     </button>
                 </div>
 
