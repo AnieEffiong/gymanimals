@@ -1,6 +1,6 @@
 import SiteJourneyForm from './SiteJourneyForm';
 import { Mail, MapPin, Phone, Instagram } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaStrava } from 'react-icons/fa';
 
 export default function Contact() {
     return (
@@ -11,7 +11,7 @@ export default function Contact() {
                     {/* Info Side */}
                     <div id="contact-info-panel-v7k2m1p4" className="lg:w-2/5 bg-zinc-900 p-12 text-white">
                         <h2 className="font-display text-4xl font-thin uppercase mb-8 text-white">Get in <span className="italic text-indigo-400">Touch</span></h2>
-                        <p className="text-zinc-400 mb-12">Want to stock our collection or have questions about your order? Our team is ready to assist you.</p>
+                        <p className="text-zinc-400 mb-12">Want to join our community?</p>
 
                         <div className="space-y-8">
                             <div className="flex items-center gap-6">
@@ -79,7 +79,15 @@ export default function Contact() {
                                 >
                                     <FaWhatsapp className="w-4 h-4 text-white" />
                                 </a>
-                                <div className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors"></div>
+                                <a
+                                    href="https://strava.app.link/RgD4ciC2O3b"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    id="social-strava-link-j9x2k4m1"
+                                    className="w-8 h-8 rounded-full bg-zinc-800 hover:bg-zinc-700 transition-colors flex items-center justify-center"
+                                >
+                                    <FaStrava className="w-4 h-4 text-white" />
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -39,14 +39,17 @@ export default function Hero() {
                     </p>
 
                     <div id="hero-cta-group-x8m2p4v1" className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
-                        <button
+                        <a
                             id="hero-primary-cta-k2l9m4v1"
-                            onClick={() => document.getElementById('collection-section-n7r2m1p4')?.scrollIntoView({ behavior: 'smooth' })}
-                            className="group relative bg-white text-zinc-900 px-10 py-4 rounded-full font-sans text-sm tracking-widest uppercase overflow-hidden transition-all hover:pr-14"
+                            href="https://chat.whatsapp.com/HYyFgOsM5mC1qkyq4S77Bh"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group relative inline-flex items-center bg-white text-zinc-900 px-10 py-4 rounded-full font-sans text-sm tracking-widest uppercase overflow-hidden transition-all hover:pr-14"
                         >
-                            <span className="relative z-10">Explore Collection</span>
+                            <span className="relative z-10">Join Us</span>
+
                             <ArrowRight className="absolute right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all w-5 h-5" />
-                        </button>
+                        </a>
                         <button
                             id="hero-secondary-cta-p3m1v9x4"
                             onClick={() => document.getElementById('about-section-z3k8v5m9')?.scrollIntoView({ behavior: 'smooth' })}
