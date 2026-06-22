@@ -3,24 +3,20 @@ import { Star } from 'lucide-react';
 const testimonials = [
     {
         id: 'testimonial-1-v9k2p1l4',
-        name: 'Victor Samuel',
-        role: 'Fighter',
-        content: 'The durability is unmatched. I have put these through hundreds of heavy squat sessions and they still look and feel like day one. Best investment I have made for my training.',
+        name: 'Zammy',
+        content: 'Gym Animals has been a total gamechanger for me. Joining this community, I finally understood that my mental health journey is not just about fighting alone, it is about finding strength with others. Every workout, every session, I feel more powerful, and I know I can overcome anything.',
         rating: 5
     },
     {
         id: 'testimonial-2-z3m1p9x2',
-        name: 'Adeola Ipaye',
-        role: 'Yoga Instructor',
-        content: 'Finally, leggings that are actually squat-proof and stay in place. The fabric feels like a second skin. Elegant enough for brunch, tough enough for the studio.',
+        name: 'Ipaye',
+        content: 'What I love about Gym Animals is how it merges physical strength with mental resilience. The belief that we can push past depression gave me a fresh perspective. I do not just lift weights, I lift my spirit, surrounded by a team that truly cares.',
         rating: 5
     },
     {
         id: 'testimonial-3-q8l2v4x1',
-        name: 'David Chen',
-        role: 'Ultra Runner',
-        content: 'The compression technology in the socks and base layers changed my recovery game. GYM ANIMALS is the only brand I trust for my long-distance prep.',
-        rating: 5
+        name: 'Edimoya',
+        content: 'Gym Animals is not just a gym group, it is a family. Here, I have learnt that the narrative of depression does not define me. I have grown stronger inside and out, and everyday I step in, I feel unstoppable.'
     }
 ];
 
@@ -43,7 +39,7 @@ export default function Testimonials() {
                             <p className="text-zinc-700 italic mb-8 grow leading-relaxed">"{t.content}"</p>
                             <div>
                                 <h4 className="font-display text-lg uppercase font-thin text-zinc-900">{t.name}</h4>
-                                <p className="text-indigo-600 text-sm font-sans uppercase tracking-widest">{t.role}</p>
+                                {/* <p className="text-indigo-600 text-sm font-sans uppercase tracking-widest">{t.role}</p> */}
                             </div>
                         </div>
                     ))}
